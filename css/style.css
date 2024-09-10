@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  overflow-x: hidden; 
+}
+
+a {
+  text-decoration: none;
+ }
+
+li {
+  list-style: none; 
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #efefef;
+  overflow-x: hidden;
+ }
+
+h1, h2 {
+  font-family: "Poppins Bold";
+  text-align: center;
+  padding: 10px;
+ }
+
+img {
+  width: 100%; 
+}
+
+  /* SECCION ENCABEZADO  */
+
+.header-index {
+  height: 100vh;
+  background-image: url(../assets/img/hero.png);
+  background-position: center top;
+  background-size: cover; }
+
+/* SECCION VIDEO RECIENTE */
+
+.video-reciente {
+  text-align: center;
+  margin: 1rem 0;
+ }
+
+.video {
+  width: 560px;
+  height: 315px; 
+}
+
+ /* SECCION QUIEN ES DARIANA  */
+
+.quien-es-dari {
+  display: grid;
+  grid-template-areas: "a a"
+ "b c"
+ "b c";
+  align-items: center;
+  justify-items: center;
+  padding: 1rem 0;
+  margin: 1rem 0; 
+}
+
+.title-qed {
+  grid-area: a;
+ }
+
+.article-qed {
+  grid-area: b;
+  width: 70%;
+  text-align: end;
+  justify-self: end;
+  padding-right: 1rem;
+ }
+
+.img-about {
+  grid-area: c;
+  width: 60%;
+  justify-self: start;
+ }
+
+  /* SECCION ZOMOZ  */
+
+  .zomoz {
+    display: grid;
+    grid-template-areas: "g g"
+   "h i"
+   "h i";
+    align-items: center;
+    justify-items: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+   }
+
+.title-zomoz {
+  grid-area: g; }
+
+.img-zomoz {
+  grid-area: h;
+  width: 70%;
+  justify-self: end; }
+
+.article-zomoz {
+  grid-area: i;
+  width: 70%;
+  text-align: start;
+  justify-self: start;
+  padding-left: 1rem; }
+
+  /* PIE DE PAGINA  */
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+   }
+
+
+
+
+
