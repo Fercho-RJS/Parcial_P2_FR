@@ -1,0 +1,11 @@
+
+
+@import './partial/reset';
+
+$info: #d7ac00;
+$bg-info-subtitle: #0fe966;
+$danger: #3cbe098c;
+$text-danger: #230e8b;
+$bg-secundary-subtitle: #102f31;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
